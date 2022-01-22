@@ -516,8 +516,10 @@
 		E7B5B394279B248600B7547C /* flag_sd_TD.png in Resources */ = {isa = PBXBuildFile; fileRef = E7B5B1A0279B248500B7547C /* flag_sd_TD.png */; };
 		E7B5B396279B271B00B7547C /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5B395279B271B00B7547C /* CountryCell.swift */; };
 		E7B5B398279B330C00B7547C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5B397279B330C00B7547C /* DetailViewController.swift */; };
-		E7B5B39A279B33DC00B7547C /* FlagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5B399279B33DC00B7547C /* FlagCell.swift */; };
 		E7B5B39C279B363700B7547C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5B39B279B363700B7547C /* Country.swift */; };
+		E7B5B39E279C325500B7547C /* FlagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5B39D279C325500B7547C /* FlagCell.swift */; };
+		E7B5B3A2279C354E00B7547C /* FlagUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5B3A1279C354E00B7547C /* FlagUtils.swift */; };
+		E7B5B3A4279C482100B7547C /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B5B3A3279C482100B7547C /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1032,8 +1034,10 @@
 		E7B5B1A0279B248500B7547C /* flag_sd_TD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag_sd_TD.png; sourceTree = "<group>"; };
 		E7B5B395279B271B00B7547C /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
 		E7B5B397279B330C00B7547C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		E7B5B399279B33DC00B7547C /* FlagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCell.swift; sourceTree = "<group>"; };
 		E7B5B39B279B363700B7547C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		E7B5B39D279C325500B7547C /* FlagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCell.swift; sourceTree = "<group>"; };
+		E7B5B3A1279C354E00B7547C /* FlagUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagUtils.swift; sourceTree = "<group>"; };
+		E7B5B3A3279C482100B7547C /* CodableBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1071,8 +1075,10 @@
 				E7B5AF99279B07E900B7547C /* ViewController.swift */,
 				E7B5B395279B271B00B7547C /* CountryCell.swift */,
 				E7B5B397279B330C00B7547C /* DetailViewController.swift */,
-				E7B5B399279B33DC00B7547C /* FlagCell.swift */,
+				E7B5B3A3279C482100B7547C /* CodableBundleExtension.swift */,
+				E7B5B39D279C325500B7547C /* FlagCell.swift */,
 				E7B5B39B279B363700B7547C /* Country.swift */,
+				E7B5B3A1279C354E00B7547C /* FlagUtils.swift */,
 				E7B5AF9B279B07E900B7547C /* Main.storyboard */,
 				E7B5AF9E279B07EC00B7547C /* Assets.xcassets */,
 				E7B5AFA0279B07EC00B7547C /* LaunchScreen.storyboard */,
@@ -2175,8 +2181,10 @@
 				E7B5AF9A279B07E900B7547C /* ViewController.swift in Sources */,
 				E7B5B398279B330C00B7547C /* DetailViewController.swift in Sources */,
 				E7B5AF96279B07E900B7547C /* AppDelegate.swift in Sources */,
+				E7B5B3A2279C354E00B7547C /* FlagUtils.swift in Sources */,
+				E7B5B39E279C325500B7547C /* FlagCell.swift in Sources */,
 				E7B5AF98279B07E900B7547C /* SceneDelegate.swift in Sources */,
-				E7B5B39A279B33DC00B7547C /* FlagCell.swift in Sources */,
+				E7B5B3A4279C482100B7547C /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

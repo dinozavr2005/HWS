@@ -2,7 +2,12 @@
 //  FlagCell.swift
 //  HWSMilestone-6
 //
-//  Created by Владимир on 21.01.2022.
+//  Created by Владимир on 22.01.2022.
 //
 
-import Foundation
+import UIKit
+
+class FlagCell: UITableViewCell {
+
+    @IBOutlet var flagImageView: UIImageView!
+}
