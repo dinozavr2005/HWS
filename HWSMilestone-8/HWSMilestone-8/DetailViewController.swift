@@ -42,10 +42,10 @@ class EditorViewController: UIViewController {
         
         navigationItem.largeTitleDisplayMode = .never
         
-        if let backgroundImage = UIImage(named: "white_wall") {
-            // this will tile the image
-            view.backgroundColor = UIColor(patternImage: backgroundImage)
-        }
+//        if let backgroundImage = UIImage(named: "white_wall") {
+//            // this will tile the image
+//            view.backgroundColor = UIColor(patternImage: backgroundImage)
+//        }
 
         shareButton = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneTapped))
